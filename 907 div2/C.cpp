@@ -43,23 +43,9 @@ else{
 }
 if(vec[i]==vec[k]!=0){
     long long ls=vec[k];
-    while(ls>0){
-        if(ls-x==1 || ls-x==0 ){
-            ls-=x;
-            atk++;
-            x=0;
-        }
-        if(ls>0){
-            ls-1;
-            atk++;
-            x++;
-        }
-        if(ls==0){
-            break;
-        }
-    }
+
     
-    //atk+=(floor(ls/2)-x+1);
+    atk+=(floor(ls/2)-x+1);
 
 }
 cout<<atk<<endl;
