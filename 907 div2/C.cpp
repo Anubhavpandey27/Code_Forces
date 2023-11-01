@@ -37,20 +37,24 @@ else{
     vec[i]-=(vec[k]-x);
     atk+=(vec[k]-x+1);
     k--;
-    x=0;
-}
-
-}
+    x=0;}}
+    cout<<x<< endl;
 if(vec[i]==vec[k]!=0){
     long long ls=vec[k];
-
+    if(x<=ls){
     
-    atk+=(floor(ls/2)-x+1);
-
+   if((ls-x)%2==0){
+    atk=atk+(ls-x)/2;}
+   else{atk=(atk+ls-x+1)/2;}}
+   else{
+    atk+=ls;
+   }
+   }
+    cout<<atk<<endl;
 }
-cout<<atk<<endl;
 
 
-}
+
+
 
 }
