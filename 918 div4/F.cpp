@@ -22,13 +22,13 @@ for(int j=0;j<t;j++){
         vec.push_back(make_pair(a,b));
        
     }
-    sort(vec.begin(),vec.end());   
+    sort(vec.begin(),vec.end())   
    
-    ll ans = 0;
-      for(int i=1;i<n-1;i++){
+    ll ans =0;
+      for(int i=0;i<n-1;i++){
           for(int k=i+1;k<n;k++){
             if(vec[i].second>vec[k].second ){
-                ans++;
+                ans++
             }
           }
       }
