@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"c:\\Users\\ASUS\\Documents\\Code_Forces\\code_com\\A.cpp","tests":[{"id":1707668828204,"input":"2\n4 4\n1 2 3 4\n5 6 7 8\n3 1\n1 1 1\n1 1 1\n","output":"12\n2\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ASUS\\Documents\\Code_Forces\\code_com\\A.cpp","group":"local","local":true}

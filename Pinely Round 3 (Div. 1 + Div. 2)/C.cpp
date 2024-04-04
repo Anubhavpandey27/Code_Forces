@@ -51,6 +51,7 @@ for(int j=0;j<t;j++){
 
         
     }
+    sort(temp2.begin(),temp2.end());
     reverse(c.begin(),c.end());
     ll ans=0;
     for(int i=0;i<n;i++){

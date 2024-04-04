@@ -7,32 +7,29 @@ using namespace std;
 #define ll long long
 void helper(){
 }
+long long find_set(long long n,vector<long long > &vec){
+  if(vec[n]==n){
+    return n;
+  }
+  return vec[n]=find_set(vec[n],vec);
+}
+void union_sets(long  a, long b,vector<long long >& vec) {
+    a = find_set(a,vec);
+    b = find_set(b,vec);
+    if (a != b)
+        vec[b] = a;
+}
 
 int main(){
+ios::sync_with_stdio(0);
+cin.tie(NULL);
 int t;
 cin>>t;
 while(t){
     ll n;
     cin>>n;
-    vector<pair<ll,ll>> vec;
+    
     for(int i=0;i<n;i++){
-        ll ele;
-        cin>>ele;
-        vec.push_back({ele,0});
-
-    }
-    for(int i=0;i<n;i++){
-        ll ele;
-        cin>>ele;
-        vec[i].second=ele;
-
-    }
-    vector<ll> ans(n,0);
-    vector<
-    for(int i=0;i<vec.size();i++){
-        if(i==0){
-
-        }
 
     }
 
