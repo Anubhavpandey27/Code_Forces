@@ -64,13 +64,7 @@ cout<<arr.size()-helper(vec,dp,arr,0,0)<<"\n";
 
 
 
-attack =3 2 3 2 3 1 2
-turn =  6 5 9 5 10 7 7
 
-arr[][]=(6,3),(7,0) ,(8,5),(8,6),(11,4) ,(11,1)
-// h-attack[arr[0][1]]
-
-//(arr[0][0]+turn[arr[0][1]],arr[0][1])
 
 
 
