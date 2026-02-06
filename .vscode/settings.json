@@ -5,6 +5,8 @@
         "iostream": "cpp",
         "xutility": "cpp",
         "utility": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "iosfwd": "cpp",
+        "valarray": "cpp"
     }
 }
